@@ -46,34 +46,32 @@ SpringMartX is a full-stack **e-commerce platform** built with **Spring Boot** f
 
 ---
 ## 📂 **Project Structure**  
-SpringMartX/ │── src/
+SpringMartX/
+│── src/
 │ ├── main/java/com/ecommerce/project/
 │ │ ├── config/ # Security & Web Configurations
-│ │ ├── controller/ # Handles API requests
-│ │ │ ├── AuthController.java # User authentication
-│ │ │ ├── ProductController.java # Product operations
-│ │ │ ├── CartController.java # Shopping cart operations
-│ │ │ ├── CategoryController.java # Category management
-│ │ ├── exceptions/ # Custom exception handling
-│ │ ├── model/ # Database entities
-│ │ │ ├── User.java # User model
-│ │ │ ├── Product.java # Product model
-│ │ │ ├── Category.java # Category model
-│ │ │ ├── Cart.java # Cart model
-│ │ ├── repositories/ # Database repositories
-│ │ ├── security/ # Security & JWT configuration
-│ │ │ ├── WebSecurityConfig.java # Security setup
-│ │ │ ├── jwt/ # JWT utility classes
-│ │ ├── service/ # Business logic services
-│ │ ├── util/ # Utility classes
+│ │ ├── controller/ # API Controllers
+│ │ │ ├── AuthController.java # User Authentication
+│ │ │ ├── ProductController.java # Product Operations
+│ │ │ ├── CartController.java # Shopping Cart
+│ │ │ ├── CategoryController.java # Category Management
+│ │ ├── exceptions/ # Custom Exception Handling
+│ │ ├── model/ # Database Entities
+│ │ │ ├── User.java # User Model
+│ │ │ ├── Product.java # Product Model
+│ │ │ ├── Category.java # Category Model
+│ │ │ ├── Cart.java # Cart Model
+│ │ ├── repositories/ # Database Repositories
+│ │ ├── security/ # Security & JWT Configurations
+│ │ │ ├── WebSecurityConfig.java # Security Setup
+│ │ │ ├── jwt/ # JWT Utility Classes
+│ │ ├── service/ # Business Logic Services
+│ │ ├── util/ # Utility Classes
 │ │ ├── SbEcomApplication.java # Main Spring Boot Application
 │── src/main/resources/
-│ ├── application.properties # Database & app configurations
-│── pom.xml # Project dependencies
+│ ├── application.properties # Database & App Configurations
+│── pom.xml # Project Dependencies
 │── README.md # Documentation
-
-
----
 
 ## ⚙️ **Getting Started**  
 
