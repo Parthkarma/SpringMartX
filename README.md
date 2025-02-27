@@ -1,7 +1,9 @@
 
 ---
 
-## 🚀 **Features**  
+
+
+
 
 ### **🔧 Backend (Spring Boot - SpringMartX)**
 - 🔐 **Authentication & Authorization** – Secure JWT-based login/signup  
@@ -11,6 +13,10 @@
 - 🛡️ **Security Features** – Role-based access control  
 
 ---
+## 🚀 **Features**  
+## 🌐 **Frontend Repository & Live Project**  
+🔹 **Frontend Repository:** [![React](https://img.shields.io/badge/Frontend-React-blue?style=flat&logo=react)](https://github.com/Parthkarma/SpringMartxUI)  
+🔹 **Live Demo (If Available):** [🔗 Click Here](#)  
 
 ## 🛠 **Tech Stack**  
 
