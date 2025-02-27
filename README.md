@@ -45,33 +45,37 @@ SpringMartX is a full-stack **e-commerce platform** built with **Spring Boot** f
 | ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white) | API Testing |
 
 ---
-## 📂 **Project Structure**  
-SpringMartX/
-│── src/
-│ ├── main/java/com/ecommerce/project/
-│ │ ├── config/ # Security & Web Configurations
-│ │ ├── controller/ # API Controllers
-│ │ │ ├── AuthController.java # User Authentication
-│ │ │ ├── ProductController.java # Product Operations
-│ │ │ ├── CartController.java # Shopping Cart
-│ │ │ ├── CategoryController.java # Category Management
-│ │ ├── exceptions/ # Custom Exception Handling
-│ │ ├── model/ # Database Entities
-│ │ │ ├── User.java # User Model
-│ │ │ ├── Product.java # Product Model
-│ │ │ ├── Category.java # Category Model
-│ │ │ ├── Cart.java # Cart Model
-│ │ ├── repositories/ # Database Repositories
-│ │ ├── security/ # Security & JWT Configurations
-│ │ │ ├── WebSecurityConfig.java # Security Setup
-│ │ │ ├── jwt/ # JWT Utility Classes
-│ │ ├── service/ # Business Logic Services
-│ │ ├── util/ # Utility Classes
-│ │ ├── SbEcomApplication.java # Main Spring Boot Application
-│── src/main/resources/
-│ ├── application.properties # Database & App Configurations
-│── pom.xml # Project Dependencies
-│── README.md # Documentation
+## 📂 Project Structure  
+
+```
+SpringMartX/  
+│── src/  
+│   ├── main/java/com/ecommerce/project/  
+│   │   ├── **config/**               # Security & Web Configurations  
+│   │   ├── **controller/**           # API Controllers  
+│   │   │   ├── AuthController.java   # User Authentication  
+│   │   │   ├── ProductController.java # Product Operations  
+│   │   │   ├── CartController.java   # Shopping Cart  
+│   │   │   ├── CategoryController.java # Category Management  
+│   │   ├── **exceptions/**           # Custom Exception Handling  
+│   │   ├── **model/**                # Database Entities  
+│   │   │   ├── User.java             # User Model  
+│   │   │   ├── Product.java          # Product Model  
+│   │   │   ├── Category.java         # Category Model  
+│   │   │   ├── Cart.java             # Cart Model  
+│   │   ├── **repositories/**         # Database Repositories  
+│   │   ├── **security/**             # Security & JWT Configurations  
+│   │   │   ├── WebSecurityConfig.java # Security Setup  
+│   │   │   ├── jwt/                  # JWT Utility Classes  
+│   │   ├── **service/**              # Business Logic Services  
+│   │   ├── **util/**                 # Utility Classes  
+│   │   ├── SbEcomApplication.java    # Main Spring Boot Application  
+│── src/main/resources/  
+│   ├── application.properties        # Database & App Configurations  
+│── pom.xml                           # Project Dependencies  
+│── README.md                         # Documentation  
+```
+
 
 ## ⚙️ **Getting Started**  
 
