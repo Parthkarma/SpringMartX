@@ -1,94 +1,86 @@
-# SpringMartX - E-Commerce Platform
+# 🛒 SpringMartX - E-Commerce Platform (Backend)  
 
-## Overview
-SpringMartX is a full-stack e-commerce platform built using **Spring Boot** for the backend and **React** for the frontend. This project provides a seamless shopping experience with features like product management, user authentication, shopping cart, and order processing.
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)  
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)  
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)  
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)  
 
-### **Project Links:**
-- **Backend Repository:** [SpringMartX (Spring Boot)](https://github.com/Parthkarma/SpringMartX)
-- **Frontend Repository:** [SpringMartxUI (React)](https://github.com/Parthkarma/SpringMartxUI)
-- **API Documentation:** [Postman API Docs](https://documenter.getpostman.com/view/33652413/2sAYX3sPPt)
+---
 
-## Features
-### **Backend (Spring Boot - SpringMartX)**
-- 🔐 **Authentication & Authorization** (JWT-based security)
-- 📂 **Category Management** (CRUD operations on product categories)
-- 🛍️ **Product Management** (Adding, updating, and deleting products)
-- 🛒 **Cart Functionality** (Add to cart, update, and remove items)
-- 📦 **Order Processing** (Placing orders and handling payments)
-- 🛡️ **Security Features** (User authentication and role-based access control)
+## 📌 **Overview**  
+SpringMartX is a full-stack **e-commerce platform** built with **Spring Boot** for the backend and **React** for the frontend. It provides a seamless shopping experience with features like **product management, user authentication, shopping cart, and order processing.**  
 
-### **Frontend (React - SpringMartxUI)**
-- **User Registration & Login Pages**
-- **Product Listing & Filtering by Categories**
-- **Shopping Cart with State Management (Redux)**
-- **Checkout & Order Summary Pages**
-- **Integration with Backend APIs**
-- **Responsive & Modern UI Design**
+---
 
-## Technologies Used
-### **Backend:**
-- Java, Spring Boot
-- Spring Security (JWT Authentication)
-- MySQL/PostgreSQL
-- REST APIs
-- Maven
+## 🔗 **Project Links:**  
 
-### **Frontend:**
-- React.js
-- Redux for State Management
-- TailwindCSS / Material-UI (for styling)
-- Axios (for API calls)
-- React Router (for navigation)
+🔹 **Backend Repository:** [![Spring Boot](https://img.shields.io/badge/Backend-SpringBoot-green?style=flat&logo=spring)](https://github.com/Parthkarma/SpringMartX)  
+🔹 **Frontend Repository:** [![React](https://img.shields.io/badge/Frontend-React-blue?style=flat&logo=react)](https://github.com/Parthkarma/SpringMartxUI)  
+🔹 **API Documentation:** [![Postman API](https://img.shields.io/badge/API-Postman-orange?style=flat&logo=postman)](https://documenter.getpostman.com/view/33652413/2sAYX3sPPt)  
 
-## Getting Started
-### **Backend Setup**
-1. Clone the backend repository:
-   ```bash
-   git clone https://github.com/Parthkarma/SpringMartX.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd SpringMartX
-   ```
-3. Configure your database in `application.properties`.
-4. Run the application:
-   ```bash
-   mvn spring-boot:run
-   ```
+---
 
-### **Frontend Setup**
-1. Clone the frontend repository:
-   ```bash
-   git clone https://github.com/Parthkarma/SpringMartxUI.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd SpringMartxUI
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Start the React development server:
-   ```bash
-   npm start
-   ```
+## 🚀 **Features**  
 
-## API Endpoints
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/api/auth/register` | POST | Register a new user |
-| `/api/auth/login` | POST | User login & JWT generation |
-| `/api/products` | GET | Fetch all products |
-| `/api/products/{id}` | GET | Fetch a single product by ID |
-| `/api/cart` | POST | Add items to the cart |
-| `/api/orders` | POST | Place an order |
+### **🔧 Backend (Spring Boot - SpringMartX)**
+- 🔐 **Authentication & Authorization** – Secure JWT-based login/signup  
+- 📂 **Category Management** – CRUD operations on product categories  
+- 🛍️ **Product Management** – Add, update, and delete products  
+- 🛒 **Cart Functionality** – Add to cart, update, and remove items  
+- 🛡️ **Security Features** – Role-based access control  
 
-## Contribution Guidelines
-We welcome contributions! Feel free to submit issues, feature requests, or pull requests to improve this project.
+---
 
-## License
-This project is open-source and available under the MIT License.
+## 🛠 **Tech Stack**  
 
-## Contact
-For any queries or collaboration, reach out to [Parth Karma](https://github.com/Parthkarma).
+### **🖥️ Backend:**  
+| Technology | Description |
+|------------|------------|
+| ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white) | Core programming language |
+| ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring&logoColor=white) | Backend framework |
+| ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat&logo=spring&logoColor=white) | JWT-based authentication |
+| ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat&logo=hibernate&logoColor=white) | ORM for database operations |
+| ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white) | Relational Database |
+| ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat&logo=apache-maven&logoColor=white) | Dependency management |
+| ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white) | API Testing |
+
+---
+## 📂 **Project Structure**  
+SpringMartX/ │── src/
+│ ├── main/java/com/ecommerce/project/
+│ │ ├── config/ # Security & Web Configurations
+│ │ ├── controller/ # Handles API requests
+│ │ │ ├── AuthController.java # User authentication
+│ │ │ ├── ProductController.java # Product operations
+│ │ │ ├── CartController.java # Shopping cart operations
+│ │ │ ├── CategoryController.java # Category management
+│ │ ├── exceptions/ # Custom exception handling
+│ │ ├── model/ # Database entities
+│ │ │ ├── User.java # User model
+│ │ │ ├── Product.java # Product model
+│ │ │ ├── Category.java # Category model
+│ │ │ ├── Cart.java # Cart model
+│ │ ├── repositories/ # Database repositories
+│ │ ├── security/ # Security & JWT configuration
+│ │ │ ├── WebSecurityConfig.java # Security setup
+│ │ │ ├── jwt/ # JWT utility classes
+│ │ ├── service/ # Business logic services
+│ │ ├── util/ # Utility classes
+│ │ ├── SbEcomApplication.java # Main Spring Boot Application
+│── src/main/resources/
+│ ├── application.properties # Database & app configurations
+│── pom.xml # Project dependencies
+│── README.md # Documentation
+
+
+---
+
+## ⚙️ **Getting Started**  
+
+### **🖥️ Backend Setup**  
+1️⃣ **Clone the Repository**  
+```bash
+git clone https://github.com/Parthkarma/SpringMartX.git
+cd SpringMartX
+Run the application : 
+mvn spring-boot:run
