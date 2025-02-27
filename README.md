@@ -12,11 +12,8 @@
 - 🛒 **Cart Functionality** – Add to cart, update, and remove items  
 - 🛡️ **Security Features** – Role-based access control  
 
----
-## 🚀 **Features**  
-## 🌐 **Frontend Repository & Live Project**  
-🔹 **Frontend Repository:** [![React](https://img.shields.io/badge/Frontend-React-blue?style=flat&logo=react)](https://github.com/Parthkarma/SpringMartxUI)  
-🔹 **Live Demo (If Available):** [🔗 Click Here](#)  
+🔹 ** 🌐 Frontend Repository:** [![React](https://img.shields.io/badge/Frontend-React-blue?style=flat&logo=react)](https://github.com/Parthkarma/SpringMartxUI)  
+
 
 ## 🛠 **Tech Stack**  
 
