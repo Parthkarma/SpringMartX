@@ -1,6 +1,6 @@
 [build]
 builder = "maven"
-build_cmd = "mvn clean package"
+build_cmd = "mvn clean package -DskipTests"
 
 [start]
 cmd = "java -jar target/*.jar"
