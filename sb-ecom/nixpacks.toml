@@ -1,6 +1,7 @@
 [build]
 builder = "maven"
+working_directory = "sb-ecom"
 build_cmd = "mvn clean package -DskipTests"
 
 [start]
-cmd = "java -jar target/*.jar"
+cmd = "java -jar sb-ecom/target/*.jar"
